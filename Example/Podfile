@@ -2,6 +2,9 @@ use_frameworks!
 
 platform :ios, '10.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/guxingjian/SFPodSpec.git'
+
 target 'SFPodB_Example' do
   pod 'SFPodB', :path => '../'
 

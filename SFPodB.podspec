@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFPodB'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of SFPodB.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SFPodB/Classes/**/*'
+  
+  s.dependency 'SFPodA', '1.0.5'
   
   # s.resource_bundles = {
   #   'SFPodB' => ['SFPodB/Assets/*.png']

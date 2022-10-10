@@ -1,6 +1,6 @@
 {
   "name": "SFPodB",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "A short description of SFPodB.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/guxingjian/SFPodB",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/guxingjian/SFPodB.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SFPodB/Classes/**/*"
+  "source_files": "SFPodB/Classes/**/*",
+  "dependencies": {
+    "SFPodA": [
+      "1.0.5"
+    ]
+  }
 }

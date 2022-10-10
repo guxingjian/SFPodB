@@ -6,11 +6,15 @@
 //
 
 #import "SFPodBObject.h"
+#import "SFPodAObject.h"
 
 @implementation SFPodBObject
 
 - (void)test{
     NSLog(@"SFPodB test method");
+    
+    SFPodAObject* podAObj = [[SFPodAObject alloc] init];
+    [podAObj test];
 }
 
 @end

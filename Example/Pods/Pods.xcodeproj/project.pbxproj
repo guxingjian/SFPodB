@@ -7,52 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0108349F97E8788EE61C624C46C67098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2C4B902BF5A4ADC2558B6911F96E1F7F /* SFPodBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 003EDC6E6DFDC273E7FFAA4212E9589C /* SFPodBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4690FFEA08534CDBA2734B0768F3073E /* SFPodBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F7180DB76850B123D00223B23371 /* SFPodBObject.m */; };
-		5C4D33A279F3456A6506113017037D5A /* SFPodB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19153F287C367EBB2762415DDC64C272 /* SFPodB-dummy.m */; };
-		6765D84CC95C8E794B363E5728998ED5 /* Pods-SFPodB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB8591C9DF2AD0F3EE1FBDA440BE11 /* Pods-SFPodB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97F8C06E4CE5739121EE9E9521465D32 /* Pods-SFPodB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C11A197C218A3EB3516304C2B8D3E48C /* Pods-SFPodB_Example-dummy.m */; };
+		245F15760B58E57B667214C39B148610 /* Pods-SFPodB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB8591C9DF2AD0F3EE1FBDA440BE11 /* Pods-SFPodB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351A65FEDC3ADE4642FDE572AD8987FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3F7D8DAB66E04DFC69540DF608E1D97E /* SFPodA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30DAF6DBFB6BAF6425C7F6F31CFA61 /* SFPodA-dummy.m */; };
+		4AD3FD2864CD7B1DF3E0D6ED40F43631 /* SFPodA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 307BADC8DDC4379BAB7314B356012666 /* SFPodA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5247C3D800E96FC7A68DF56CCE22D539 /* SFPodBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 003EDC6E6DFDC273E7FFAA4212E9589C /* SFPodBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6101D1A396CB17465BF6BC2A928EB3D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		79B48B69D11B85B1445D22AC28A71EBB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60B2741FDD1204E2AD5336492B0E1B /* ReplaceMe.m */; };
+		983AAA40389C2FE10308FC95957B92A3 /* Pods-SFPodB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C11A197C218A3EB3516304C2B8D3E48C /* Pods-SFPodB_Example-dummy.m */; };
 		9F17115037CF26B37EDDCC303DD1964D /* Pods-SFPodB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4E7D22C732CA04FE864B114BC6B14C /* Pods-SFPodB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A75ADBBC359967C43E14EE08B99115F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B55BDE4EC177EA3A6F9940944B35FF2D /* SFPodB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AB1D84837C613E89C9C2C6540BAA5D /* SFPodB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4BCD11C4E4BC77CADC53FE703B2CF9D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60B2741FDD1204E2AD5336492B0E1B /* ReplaceMe.m */; };
+		BC7DA998963C36C63075B24962383986 /* SFPodBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F7180DB76850B123D00223B23371 /* SFPodBObject.m */; };
+		D3DEC904D72B5A84BBD93903600E1A46 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A25445D38FE4D546804678210333999D /* ReplaceMe.m */; };
+		D9E76A757739F8614EA3BDD2EE46019B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DE5AF03F0E1C2809A6F5E2281635630C /* SFPodB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19153F287C367EBB2762415DDC64C272 /* SFPodB-dummy.m */; };
+		DE6F5694B150B3E18A02FAD79BEB9F2B /* SFPodB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AB1D84837C613E89C9C2C6540BAA5D /* SFPodB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE99BEFE39FA31F910D3B858560DCA17 /* SFPodAObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CA211109442299664345F3BF60BA17 /* SFPodAObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9C3E175CB24927B8DBFBE6CFFB2375F /* Pods-SFPodB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D124E603F6D0409CB9150E2C26F2E4B9 /* Pods-SFPodB_Tests-dummy.m */; };
 		EDA9878AC3A60A41B0F6A01A6D926A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F909DFCC4747B2628CA1B58096904BB2 /* SFPodAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75553055D485A427E74C9162FBD0B6C3 /* SFPodAObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9D72CD9434561EA13D886D5E1BF96254 /* PBXContainerItemProxy */ = {
+		43DE072F1D7473366DC4A4C77BCF912E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8465B4E0C2AABBA60AC8B41293868F35;
 			remoteInfo = "Pods-SFPodB_Example";
 		};
-		E79577AB7A5E5B872BD2C25A7B161889 /* PBXContainerItemProxy */ = {
+		75F9CBDD120A46F9E391348952A89CF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A5C24C34F434E1B1FBDD782EFE9697CB;
 			remoteInfo = SFPodB;
 		};
+		BA6FE03F0FC62554FF70E53C15502FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368536C62B35FF5455F3F57E7B362AB3;
+			remoteInfo = SFPodA;
+		};
+		E5B741BDE452854F78F7190D84A8CF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368536C62B35FF5455F3F57E7B362AB3;
+			remoteInfo = SFPodA;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		003EDC6E6DFDC273E7FFAA4212E9589C /* SFPodBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFPodBObject.h; path = SFPodB/Classes/SFPodBObject.h; sourceTree = "<group>"; };
+		02F43495B875F43154D84AF951A0D1E6 /* SFPodA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFPodA-prefix.pch"; sourceTree = "<group>"; };
 		07CAA09B466CD086FCC49F250E9ACE9C /* Pods-SFPodB_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFPodB_Example-Info.plist"; sourceTree = "<group>"; };
 		19153F287C367EBB2762415DDC64C272 /* SFPodB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFPodB-dummy.m"; sourceTree = "<group>"; };
+		1FB7E250B8CCEBC1E225D51B8B119A50 /* SFPodA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFPodA.release.xcconfig; sourceTree = "<group>"; };
 		22FB8591C9DF2AD0F3EE1FBDA440BE11 /* Pods-SFPodB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFPodB_Example-umbrella.h"; sourceTree = "<group>"; };
 		23A909016847FEB4815C208BE698AD88 /* Pods-SFPodB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFPodB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A48B27BE88F095E9216B5EBBB305295 /* Pods-SFPodB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFPodB_Tests.modulemap"; sourceTree = "<group>"; };
+		307BADC8DDC4379BAB7314B356012666 /* SFPodA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFPodA-umbrella.h"; sourceTree = "<group>"; };
+		36CA211109442299664345F3BF60BA17 /* SFPodAObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFPodAObject.h; path = SFPodA/Classes/SFPodAObject.h; sourceTree = "<group>"; };
 		3EA28E312913E556AF94F25FE171C19B /* Pods-SFPodB_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SFPodB_Example"; path = Pods_SFPodB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8FA2F68C58041371E48FEDD56C2299 /* SFPodB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFPodB; path = SFPodB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4117A400EDCD42EA2EF2FC7D03C00B45 /* Pods-SFPodB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFPodB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		49FBE58F9DBEB5702FA615D7169D9842 /* Pods-SFPodB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFPodB_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4F0DF38FF46498C7FA791E34ACC3E873 /* SFPodA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFPodA.debug.xcconfig; sourceTree = "<group>"; };
 		5D6A07AA9FCC928795014F06D1C0438E /* Pods-SFPodB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFPodB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6555AC8A8198DEA867674DA2CB680CFB /* SFPodB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFPodB.modulemap; sourceTree = "<group>"; };
+		67048E7C6F8BC71D4EF4BE2AA99669FA /* SFPodA */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFPodA; path = SFPodA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CBF033D32ED1BB811723E8FEE493FE /* SFPodA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFPodA-Info.plist"; sourceTree = "<group>"; };
+		695CC530EB51459ADE6A72EE1261FC19 /* SFPodA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFPodA.modulemap; sourceTree = "<group>"; };
 		7124FF428121484474CC82EEB9A9BD28 /* Pods-SFPodB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFPodB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75553055D485A427E74C9162FBD0B6C3 /* SFPodAObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFPodAObject.m; path = SFPodA/Classes/SFPodAObject.m; sourceTree = "<group>"; };
 		7DA00259BF9019A71C51EA191EE7E0E5 /* SFPodB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SFPodB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E772D53FD1BB0C61E42A61B12BAF03A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8F393859B55443D48AC0F8A5501005BC /* Pods-SFPodB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFPodB_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +90,7 @@
 		9B4E7D22C732CA04FE864B114BC6B14C /* Pods-SFPodB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFPodB_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F22F7180DB76850B123D00223B23371 /* SFPodBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFPodBObject.m; path = SFPodB/Classes/SFPodBObject.m; sourceTree = "<group>"; };
+		A25445D38FE4D546804678210333999D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SFPodA/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		A3F696A51FFBE6B911C530899E5B925E /* Pods-SFPodB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFPodB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9AB1D84837C613E89C9C2C6540BAA5D /* SFPodB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFPodB-umbrella.h"; sourceTree = "<group>"; };
 		AB87DF4C729459A2782B8FA65A1A6D20 /* Pods-SFPodB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFPodB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,16 +102,25 @@
 		D124E603F6D0409CB9150E2C26F2E4B9 /* Pods-SFPodB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFPodB_Tests-dummy.m"; sourceTree = "<group>"; };
 		D78E70F381CB9A70678F073A19685E33 /* Pods-SFPodB_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFPodB_Tests-Info.plist"; sourceTree = "<group>"; };
 		E549DE90D9D9C89999E55A1DD9CED83F /* SFPodB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFPodB.release.xcconfig; sourceTree = "<group>"; };
+		EB30DAF6DBFB6BAF6425C7F6F31CFA61 /* SFPodA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFPodA-dummy.m"; sourceTree = "<group>"; };
 		EE60B2741FDD1204E2AD5336492B0E1B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SFPodB/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		F1B0235FE47AC2DB40F9EABE8234C366 /* Pods-SFPodB_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SFPodB_Tests"; path = Pods_SFPodB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14DB630F1E19D05360EE8BBD5917D400 /* Frameworks */ = {
+		2604692CC7558CC82727EAD362B18263 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0108349F97E8788EE61C624C46C67098 /* Foundation.framework in Frameworks */,
+				D9E76A757739F8614EA3BDD2EE46019B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F25EC4EC3008B9A288013A9ECD3311F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351A65FEDC3ADE4642FDE572AD8987FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,11 +132,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F318F59EE72F2FC8776F296AE8159C86 /* Frameworks */ = {
+		AC9E37355A4CC5323E25F93EEC201643 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75ADBBC359967C43E14EE08B99115F7 /* Foundation.framework in Frameworks */,
+				6101D1A396CB17465BF6BC2A928EB3D1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,22 +151,27 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		486B3E66EE0775817D00C6117A1DB6B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				695CC530EB51459ADE6A72EE1261FC19 /* SFPodA.modulemap */,
+				EB30DAF6DBFB6BAF6425C7F6F31CFA61 /* SFPodA-dummy.m */,
+				67CBF033D32ED1BB811723E8FEE493FE /* SFPodA-Info.plist */,
+				02F43495B875F43154D84AF951A0D1E6 /* SFPodA-prefix.pch */,
+				307BADC8DDC4379BAB7314B356012666 /* SFPodA-umbrella.h */,
+				4F0DF38FF46498C7FA791E34ACC3E873 /* SFPodA.debug.xcconfig */,
+				1FB7E250B8CCEBC1E225D51B8B119A50 /* SFPodA.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SFPodA";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		619F130F618A0029BAB055C1E647064B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EA28E312913E556AF94F25FE171C19B /* Pods-SFPodB_Example */,
-				F1B0235FE47AC2DB40F9EABE8234C366 /* Pods-SFPodB_Tests */,
-				3F8FA2F68C58041371E48FEDD56C2299 /* SFPodB */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		727AE4BD43274EAA36DDC24CD6AADB22 /* Support Files */ = {
@@ -203,7 +247,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0AF7DABA82E23EE0ACC39CF355E7ABDE /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				619F130F618A0029BAB055C1E647064B /* Products */,
+				DD7ACF05C30BE25006610A3DC878ECFD /* Pods */,
+				FF7243E87BCA40D8389A95EE37DB2A5D /* Products */,
 				923D32333EE305C81073493F83ADE294 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -229,9 +274,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D6E9F108B5B2F07F6BD345D2635B8AB9 /* SFPodA */ = {
+			isa = PBXGroup;
+			children = (
+				A25445D38FE4D546804678210333999D /* ReplaceMe.m */,
+				36CA211109442299664345F3BF60BA17 /* SFPodAObject.h */,
+				75553055D485A427E74C9162FBD0B6C3 /* SFPodAObject.m */,
+				486B3E66EE0775817D00C6117A1DB6B1 /* Support Files */,
+			);
+			name = SFPodA;
+			path = SFPodA;
+			sourceTree = "<group>";
+		};
+		DD7ACF05C30BE25006610A3DC878ECFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9F108B5B2F07F6BD345D2635B8AB9 /* SFPodA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF7243E87BCA40D8389A95EE37DB2A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA28E312913E556AF94F25FE171C19B /* Pods-SFPodB_Example */,
+				F1B0235FE47AC2DB40F9EABE8234C366 /* Pods-SFPodB_Tests */,
+				67048E7C6F8BC71D4EF4BE2AA99669FA /* SFPodA */,
+				3F8FA2F68C58041371E48FEDD56C2299 /* SFPodB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		15C5B51A9666CB76DD761E4C870F62B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6F5694B150B3E18A02FAD79BEB9F2B /* SFPodB-umbrella.h in Headers */,
+				5247C3D800E96FC7A68DF56CCE22D539 /* SFPodBObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387DFF78BE27D77885B2BE985737FFCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245F15760B58E57B667214C39B148610 /* Pods-SFPodB_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57AC611D9492CE909D0FD15557FE34A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,39 +333,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9000C2DF36A84EA578AEA8B105E75CC7 /* Headers */ = {
+		6EA683D5422DD629E37D87FA30845B4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6765D84CC95C8E794B363E5728998ED5 /* Pods-SFPodB_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD9F441241E90A8132F121FCEA99E460 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B55BDE4EC177EA3A6F9940944B35FF2D /* SFPodB-umbrella.h in Headers */,
-				2C4B902BF5A4ADC2558B6911F96E1F7F /* SFPodBObject.h in Headers */,
+				4AD3FD2864CD7B1DF3E0D6ED40F43631 /* SFPodA-umbrella.h in Headers */,
+				DE99BEFE39FA31F910D3B858560DCA17 /* SFPodAObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8465B4E0C2AABBA60AC8B41293868F35 /* Pods-SFPodB_Example */ = {
+		368536C62B35FF5455F3F57E7B362AB3 /* SFPodA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B5EF47FF2B52C1014080DC6D8351F6 /* Build configuration list for PBXNativeTarget "Pods-SFPodB_Example" */;
+			buildConfigurationList = 809860A5735C3C0F7A6F9790D4E5BBBE /* Build configuration list for PBXNativeTarget "SFPodA" */;
 			buildPhases = (
-				9000C2DF36A84EA578AEA8B105E75CC7 /* Headers */,
-				2E672AD6DDAFDEF0E412E6B5057AA98E /* Sources */,
-				F318F59EE72F2FC8776F296AE8159C86 /* Frameworks */,
-				04004298A3C0BF39C25704AFF8D4912C /* Resources */,
+				6EA683D5422DD629E37D87FA30845B4B /* Headers */,
+				FAC39549900C70DF5D50AEEFBBB153A9 /* Sources */,
+				2604692CC7558CC82727EAD362B18263 /* Frameworks */,
+				1D5F812BEEE67CC9E0E851A6E37D6ABB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A22BB83F0FC7FC441BCD576E7160B9F2 /* PBXTargetDependency */,
+			);
+			name = SFPodA;
+			productName = SFPodA;
+			productReference = 67048E7C6F8BC71D4EF4BE2AA99669FA /* SFPodA */;
+			productType = "com.apple.product-type.framework";
+		};
+		8465B4E0C2AABBA60AC8B41293868F35 /* Pods-SFPodB_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDBB68AC9A7E9AF6CD7C540D4494396 /* Build configuration list for PBXNativeTarget "Pods-SFPodB_Example" */;
+			buildPhases = (
+				387DFF78BE27D77885B2BE985737FFCF /* Headers */,
+				3A23BBC0AD9DCCD0564644E0EDF77AB4 /* Sources */,
+				3F25EC4EC3008B9A288013A9ECD3311F /* Frameworks */,
+				3555A09CEF93772944ABE369788D116C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78A9273CA531EF38D08E1D627D456E6 /* PBXTargetDependency */,
+				95A51D8B542679EA6DE7DADD3281A74D /* PBXTargetDependency */,
 			);
 			name = "Pods-SFPodB_Example";
 			productName = Pods_SFPodB_Example;
@@ -281,16 +385,17 @@
 		};
 		A5C24C34F434E1B1FBDD782EFE9697CB /* SFPodB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12B4E54914C146D9E148F9AA33238CF9 /* Build configuration list for PBXNativeTarget "SFPodB" */;
+			buildConfigurationList = 761E63228213ED26123483010361B101 /* Build configuration list for PBXNativeTarget "SFPodB" */;
 			buildPhases = (
-				BD9F441241E90A8132F121FCEA99E460 /* Headers */,
-				42135C6EBC9A8B1BDD9E1BF681E22A97 /* Sources */,
-				14DB630F1E19D05360EE8BBD5917D400 /* Frameworks */,
-				41A1F2F208EA02F6EF75FCDA2A9A01EC /* Resources */,
+				15C5B51A9666CB76DD761E4C870F62B0 /* Headers */,
+				6831A451FF56801CF1CCA171447847E0 /* Sources */,
+				AC9E37355A4CC5323E25F93EEC201643 /* Frameworks */,
+				0D69DC61457B55FB166212B064BE71E0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EB7C0823BF871B56DCE75A8A09040972 /* PBXTargetDependency */,
 			);
 			name = SFPodB;
 			productName = SFPodB;
@@ -309,7 +414,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9EC5FF2A5AAB9BD0C1A18CC6EDB7096E /* PBXTargetDependency */,
+				8AF07753EFBA8F4E56450FB6AE856542 /* PBXTargetDependency */,
 			);
 			name = "Pods-SFPodB_Tests";
 			productName = Pods_SFPodB_Tests;
@@ -334,25 +439,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 619F130F618A0029BAB055C1E647064B /* Products */;
+			productRefGroup = FF7243E87BCA40D8389A95EE37DB2A5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8465B4E0C2AABBA60AC8B41293868F35 /* Pods-SFPodB_Example */,
 				D65EBA4E21B4E084F573D3F73463C9E4 /* Pods-SFPodB_Tests */,
+				368536C62B35FF5455F3F57E7B362AB3 /* SFPodA */,
 				A5C24C34F434E1B1FBDD782EFE9697CB /* SFPodB */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04004298A3C0BF39C25704AFF8D4912C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C5667AD85DCB7F4A10EE86E91883DF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,7 +459,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41A1F2F208EA02F6EF75FCDA2A9A01EC /* Resources */ = {
+		0D69DC61457B55FB166212B064BE71E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5F812BEEE67CC9E0E851A6E37D6ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3555A09CEF93772944ABE369788D116C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,21 +483,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E672AD6DDAFDEF0E412E6B5057AA98E /* Sources */ = {
+		3A23BBC0AD9DCCD0564644E0EDF77AB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F8C06E4CE5739121EE9E9521465D32 /* Pods-SFPodB_Example-dummy.m in Sources */,
+				983AAA40389C2FE10308FC95957B92A3 /* Pods-SFPodB_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42135C6EBC9A8B1BDD9E1BF681E22A97 /* Sources */ = {
+		6831A451FF56801CF1CCA171447847E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4BCD11C4E4BC77CADC53FE703B2CF9D /* ReplaceMe.m in Sources */,
-				5C4D33A279F3456A6506113017037D5A /* SFPodB-dummy.m in Sources */,
-				4690FFEA08534CDBA2734B0768F3073E /* SFPodBObject.m in Sources */,
+				79B48B69D11B85B1445D22AC28A71EBB /* ReplaceMe.m in Sources */,
+				DE5AF03F0E1C2809A6F5E2281635630C /* SFPodB-dummy.m in Sources */,
+				BC7DA998963C36C63075B24962383986 /* SFPodBObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,24 +509,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAC39549900C70DF5D50AEEFBBB153A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DEC904D72B5A84BBD93903600E1A46 /* ReplaceMe.m in Sources */,
+				3F7D8DAB66E04DFC69540DF608E1D97E /* SFPodA-dummy.m in Sources */,
+				F909DFCC4747B2628CA1B58096904BB2 /* SFPodAObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EC5FF2A5AAB9BD0C1A18CC6EDB7096E /* PBXTargetDependency */ = {
+		8AF07753EFBA8F4E56450FB6AE856542 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SFPodB_Example";
 			target = 8465B4E0C2AABBA60AC8B41293868F35 /* Pods-SFPodB_Example */;
-			targetProxy = 9D72CD9434561EA13D886D5E1BF96254 /* PBXContainerItemProxy */;
+			targetProxy = 43DE072F1D7473366DC4A4C77BCF912E /* PBXContainerItemProxy */;
 		};
-		A22BB83F0FC7FC441BCD576E7160B9F2 /* PBXTargetDependency */ = {
+		95A51D8B542679EA6DE7DADD3281A74D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SFPodB;
 			target = A5C24C34F434E1B1FBDD782EFE9697CB /* SFPodB */;
-			targetProxy = E79577AB7A5E5B872BD2C25A7B161889 /* PBXContainerItemProxy */;
+			targetProxy = 75F9CBDD120A46F9E391348952A89CF4 /* PBXContainerItemProxy */;
+		};
+		E78A9273CA531EF38D08E1D627D456E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFPodA;
+			target = 368536C62B35FF5455F3F57E7B362AB3 /* SFPodA */;
+			targetProxy = BA6FE03F0FC62554FF70E53C15502FE8 /* PBXContainerItemProxy */;
+		};
+		EB7C0823BF871B56DCE75A8A09040972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFPodA;
+			target = 368536C62B35FF5455F3F57E7B362AB3 /* SFPodA */;
+			targetProxy = E5B741BDE452854F78F7190D84A8CF46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		120590E58359752EC9C81F728C00055A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6A07AA9FCC928795014F06D1C0438E /* Pods-SFPodB_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFPodB_Example/Pods-SFPodB_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFPodB_Example/Pods-SFPodB_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		144AF22754E62D86AFDB8AF9F4347FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB87DF4C729459A2782B8FA65A1A6D20 /* Pods-SFPodB_Tests.debug.xcconfig */;
@@ -441,6 +610,69 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DB31A1D31520BF6203EDFA686C17CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB7E250B8CCEBC1E225D51B8B119A50 /* SFPodA.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFPodA/SFPodA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFPodA/SFPodA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFPodA/SFPodA.modulemap";
+				PRODUCT_MODULE_NAME = SFPodA;
+				PRODUCT_NAME = SFPodA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48BFA81665C24856478C6860645FFF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977F1A2C2C097A374DF7FC2953D4D780 /* SFPodB.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFPodB/SFPodB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFPodB/SFPodB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFPodB/SFPodB.modulemap";
+				PRODUCT_MODULE_NAME = SFPodB;
+				PRODUCT_NAME = SFPodB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -509,72 +741,7 @@
 			};
 			name = Release;
 		};
-		84A62A4FFC483464AE4187F41EA21D18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D6A07AA9FCC928795014F06D1C0438E /* Pods-SFPodB_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SFPodB_Example/Pods-SFPodB_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SFPodB_Example/Pods-SFPodB_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C5372E12DEA93E2AFB0D22010BCD266 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 977F1A2C2C097A374DF7FC2953D4D780 /* SFPodB.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFPodB/SFPodB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFPodB/SFPodB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFPodB/SFPodB.modulemap";
-				PRODUCT_MODULE_NAME = SFPodB;
-				PRODUCT_NAME = SFPodB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB96E330135265F63F55D2F95A60D6C5 /* Release */ = {
+		87D96363FE16CA9D4D3820FA3E847217 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E549DE90D9D9C89999E55A1DD9CED83F /* SFPodB.release.xcconfig */;
 			buildSettings = {
@@ -606,7 +773,38 @@
 			};
 			name = Release;
 		};
-		B242ECE8EEA2B87BEBDCC736343C4B4B /* Debug */ = {
+		A5CFC0E07F728A16B22A15387A5D7AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0DF38FF46498C7FA791E34ACC3E873 /* SFPodA.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFPodA/SFPodA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFPodA/SFPodA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFPodA/SFPodA.modulemap";
+				PRODUCT_MODULE_NAME = SFPodA;
+				PRODUCT_NAME = SFPodA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEE3E65191D502195D8B43D2B4A8B5EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F393859B55443D48AC0F8A5501005BC /* Pods-SFPodB_Example.debug.xcconfig */;
 			buildSettings = {
@@ -742,15 +940,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12B4E54914C146D9E148F9AA33238CF9 /* Build configuration list for PBXNativeTarget "SFPodB" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C5372E12DEA93E2AFB0D22010BCD266 /* Debug */,
-				AB96E330135265F63F55D2F95A60D6C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2889A82FD7F7524B08CE8457126F00DF /* Build configuration list for PBXNativeTarget "Pods-SFPodB_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -760,20 +949,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B5EF47FF2B52C1014080DC6D8351F6 /* Build configuration list for PBXNativeTarget "Pods-SFPodB_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B242ECE8EEA2B87BEBDCC736343C4B4B /* Debug */,
-				84A62A4FFC483464AE4187F41EA21D18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761E63228213ED26123483010361B101 /* Build configuration list for PBXNativeTarget "SFPodB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BFA81665C24856478C6860645FFF05 /* Debug */,
+				87D96363FE16CA9D4D3820FA3E847217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809860A5735C3C0F7A6F9790D4E5BBBE /* Build configuration list for PBXNativeTarget "SFPodA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CFC0E07F728A16B22A15387A5D7AF3 /* Debug */,
+				1DB31A1D31520BF6203EDFA686C17CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDBB68AC9A7E9AF6CD7C540D4494396 /* Build configuration list for PBXNativeTarget "Pods-SFPodB_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE3E65191D502195D8B43D2B4A8B5EE /* Debug */,
+				120590E58359752EC9C81F728C00055A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

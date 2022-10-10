@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SFPodB_Example/Pods-SFPodB_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SFPodA/SFPodA.framework",
 				"${BUILT_PRODUCTS_DIR}/SFPodB/SFPodB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFPodA.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFPodB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

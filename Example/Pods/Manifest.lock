@@ -1,16 +1,23 @@
 PODS:
-  - SFPodB (1.0.2)
+  - SFPodA (1.0.5)
+  - SFPodB (1.0.3):
+    - SFPodA (= 1.0.5)
 
 DEPENDENCIES:
   - SFPodB (from `../`)
+
+SPEC REPOS:
+  https://github.com/guxingjian/SFPodSpec.git:
+    - SFPodA
 
 EXTERNAL SOURCES:
   SFPodB:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SFPodB: 0cd0569513f8fa381ca9c71a54bde3120eebedc5
+  SFPodA: d2709e8f2cd140b5f662eb9478e9a44e621996c2
+  SFPodB: 8ffb29dfe0cc6b8e4c3feec3771bbf894cf82b4b
 
-PODFILE CHECKSUM: ffe82e2fd879e3464aac6254a77f5b5ad6149313
+PODFILE CHECKSUM: 5a82283a7e8c721d9f58076292faea61ed77b72d
 
 COCOAPODS: 1.11.3

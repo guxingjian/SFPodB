@@ -1,0 +1,6 @@
+framework module SFPodA {
+  umbrella header "SFPodA-umbrella.h"
+
+  export *
+  module * { export * }
+}
