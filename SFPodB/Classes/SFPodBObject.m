@@ -10,7 +10,7 @@
 @implementation SFPodBObject
 
 - (void)test{
-    NSLog(@"SFPodBObject test");
+    NSLog(@"SFPodB test method");
 }
 
 @end
