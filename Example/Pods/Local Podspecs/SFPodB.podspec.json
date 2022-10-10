@@ -1,9 +1,9 @@
 {
   "name": "SFPodB",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "A short description of SFPodB.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/qingzhao/SFPodB",
+  "homepage": "https://github.com/guxingjian/SFPodB",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "qingzhao": "qingzhao@staff.sina.com.cn"
   },
   "source": {
-    "git": "https://github.com/qingzhao/SFPodB.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/guxingjian/SFPodB.git",
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "10.0"

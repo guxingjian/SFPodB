@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SFPodBObject.h"
 
 FOUNDATION_EXPORT double SFPodBVersionNumber;
 FOUNDATION_EXPORT const unsigned char SFPodBVersionString[];

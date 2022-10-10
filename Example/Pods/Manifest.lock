@@ -1,5 +1,5 @@
 PODS:
-  - SFPodB (0.1.0)
+  - SFPodB (1.0.2)
 
 DEPENDENCIES:
   - SFPodB (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SFPodB: 5cb18efe2d8d26752f2373716a9ddfdb3c5cb875
+  SFPodB: 0cd0569513f8fa381ca9c71a54bde3120eebedc5
 
 PODFILE CHECKSUM: ffe82e2fd879e3464aac6254a77f5b5ad6149313
 
