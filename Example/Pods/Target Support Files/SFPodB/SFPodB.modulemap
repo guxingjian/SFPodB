@@ -1,0 +1,6 @@
+framework module SFPodB {
+  umbrella header "SFPodB-umbrella.h"
+
+  export *
+  module * { export * }
+}

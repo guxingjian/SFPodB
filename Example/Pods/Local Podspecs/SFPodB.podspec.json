@@ -1,0 +1,22 @@
+{
+  "name": "SFPodB",
+  "version": "0.1.0",
+  "summary": "A short description of SFPodB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qingzhao/SFPodB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qingzhao": "qingzhao@staff.sina.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/qingzhao/SFPodB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SFPodB/Classes/**/*"
+}
