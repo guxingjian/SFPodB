@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SFPodB_Example' do
+  pod 'SFPodB', :path => '../'
+
+  target 'SFPodB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
